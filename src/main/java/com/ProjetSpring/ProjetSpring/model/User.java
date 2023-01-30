@@ -21,7 +21,7 @@ public class User{
     private int idUser;
     private String username;
     private String CIN;
-    private String motPasse;
+    private String password;
     private String nom;
     private String prenom;
     private String role;
@@ -34,7 +34,7 @@ public class User{
                 "idUser=" + idUser +
                 ", login='" + username + '\'' +
                 ", CIN='" + CIN + '\'' +
-                ", motPasse='" + motPasse + '\'' +
+                ", motPasse='" + password + '\'' +
                 ", nom='" + nom + '\'' +
                 ", prenom='" + prenom + '\'' +
                 ", role='" + role + '\'' +
@@ -80,11 +80,11 @@ public class User{
     public void setCIN(String cIN) {
         CIN = cIN;
     }
-    public String getMotPasse() {
-        return motPasse;
+    public String getPassword() {
+        return password;
     }
-    public void setMotPasse(String motPasse) {
-        this.motPasse = motPasse;
+    public void setPassword(String password) {
+        this.password = password;
     }
     public String getNom() {
         return nom;
