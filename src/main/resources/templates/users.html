@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org"
-      th:replace="~{base::layout(~{::section})}">
+<html >
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,10 +14,32 @@
 </head>
 <body>
 <section>
-    <h1>Bienvenue cher client</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success" style="">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/" style="margin-left: 20px;">AVA : Assurez vos animaux </a>
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active"
+                                            aria-current="page" href="#EspaceClient">Mes assurances</a></li>
+                    <li class="nav-item"><a class="nav-link active"
+                                            aria-current="page" href="/logout"> Se déconnecter</a></li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
 </section>
-
-
+<section>
+    
+</section>
 <section>
     <br><br><br><br><br>
     <hr style="color:#105736; height:7px;margin-right:50px; margin-left:50px">

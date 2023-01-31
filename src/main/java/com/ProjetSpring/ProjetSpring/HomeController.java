@@ -28,5 +28,10 @@ public class HomeController {
         return "/users";
     }
 
+    @GetMapping("/logout")
+    public String logout(){
+        return "/logout";
+    }
+
 
 }
